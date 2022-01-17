@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="landscape" appearance="light"/>
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,61 +13,60 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BullsEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="9NT-1C-1wr">
-                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="9NT-1C-1wr">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nrh-i8-o4v">
-                                <rect key="frame" x="45" y="30.666666666666657" width="646" height="353"/>
+                                <rect key="frame" x="164" y="45.5" width="568" height="323"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Put the Bull's Eye as close as you can to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zg3-CS-Uj8">
-                                        <rect key="frame" x="160" y="22" width="313" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="0.0" height="1"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vU6-gt-cxT">
-                                        <rect key="frame" x="481" y="20" width="36" height="25"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="0.0" height="1"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QG1-mX-uje">
-                                        <rect key="frame" x="595" y="82" width="25" height="18"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7N5-Pw-rOA">
+                                        <rect key="frame" x="106" y="20" width="356.5" height="24.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Put the Bull's Eye as close as you can to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zg3-CS-Uj8">
+                                                <rect key="frame" x="0.0" y="0.0" width="312.5" height="24.5"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vU6-gt-cxT">
+                                                <rect key="frame" x="320.5" y="0.0" width="36" height="24.5"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QG1-mX-uje">
+                                        <rect key="frame" x="543" y="104" width="25" height="17.5"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5j7-yq-r8a">
-                                        <rect key="frame" x="20" y="82" width="15" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5j7-yq-r8a">
+                                        <rect key="frame" x="8" y="104" width="8.5" height="17.5"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
-                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="1" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="vf3-Wf-01l">
-                                        <rect key="frame" x="41" y="78" width="546" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="1" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="vf3-Wf-01l">
+                                        <rect key="frame" x="22.5" y="98" width="522.5" height="31"/>
                                         <connections>
                                             <action selector="sliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="qEH-Jn-nlq"/>
                                         </connections>
                                     </slider>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C00-QI-MPt">
-                                        <rect key="frame" x="264" y="175" width="100" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C00-QI-MPt">
+                                        <rect key="frame" x="234" y="178" width="100" height="37"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <size key="titleShadowOffset" width="0.0" height="1"/>
@@ -83,54 +82,63 @@
                                             <action selector="showAlert" destination="BYZ-38-t0r" eventType="touchUpInside" id="RQw-Rx-GWM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xh-Gx-pZL">
-                                        <rect key="frame" x="31" y="301" width="32" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xh-Gx-pZL">
+                                        <rect key="frame" x="0.0" y="291" width="32" height="32"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="StartOverIcon" backgroundImage="SmallButton"/>
                                         <connections>
                                             <action selector="startNewGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="zA9-oZ-ULF"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Mz-I7-v2i">
-                                        <rect key="frame" x="160" y="305" width="51" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="0.0" height="1"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="999999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H1-gJ-pVf">
-                                        <rect key="frame" x="219" y="303" width="72" height="25"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="0.0" height="1"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Round:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sL-xd-eyb">
-                                        <rect key="frame" x="358" y="305" width="56" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="0.0" height="1"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MH-lU-tyA">
-                                        <rect key="frame" x="422" y="303" width="36" height="25"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="0.0" height="1"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZ9-i1-LXa">
-                                        <rect key="frame" x="594" y="300" width="32" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="VWW-xS-XaQ">
+                                        <rect key="frame" x="135.5" y="295" width="297" height="24.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eyb-2j-Bg2">
+                                                <rect key="frame" x="0.0" y="0.0" width="130.5" height="24.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Mz-I7-v2i">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H1-gJ-pVf">
+                                                        <rect key="frame" x="59" y="0.0" width="71.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rA3-lk-5Ig">
+                                                <rect key="frame" x="197.5" y="0.0" width="99.5" height="24.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sL-xd-eyb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MH-lU-tyA">
+                                                        <rect key="frame" x="63.5" y="0.0" width="36" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZ9-i1-LXa">
+                                        <rect key="frame" x="536" y="291" width="32" height="32"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="" image="InfoButton" backgroundImage="SmallButton"/>
                                         <connections>
@@ -140,20 +148,42 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="353" id="2GC-od-7pV"/>
-                                    <constraint firstAttribute="width" constant="646" id="b7j-bi-aFe"/>
+                                    <constraint firstItem="QG1-mX-uje" firstAttribute="centerY" secondItem="vf3-Wf-01l" secondAttribute="centerY" id="2mt-XK-zZm"/>
+                                    <constraint firstItem="C00-QI-MPt" firstAttribute="centerX" secondItem="Nrh-i8-o4v" secondAttribute="centerX" id="5PY-Ne-1ub"/>
+                                    <constraint firstItem="7N5-Pw-rOA" firstAttribute="centerX" secondItem="Nrh-i8-o4v" secondAttribute="centerX" id="F74-de-aDh"/>
+                                    <constraint firstItem="vf3-Wf-01l" firstAttribute="leading" secondItem="5j7-yq-r8a" secondAttribute="trailing" constant="8" id="GUF-J0-e49"/>
+                                    <constraint firstItem="vf3-Wf-01l" firstAttribute="centerY" secondItem="5j7-yq-r8a" secondAttribute="centerY" id="Ij2-tz-6Xi"/>
+                                    <constraint firstAttribute="width" constant="568" id="QYi-z6-zOw"/>
+                                    <constraint firstItem="VWW-xS-XaQ" firstAttribute="top" secondItem="C00-QI-MPt" secondAttribute="bottom" constant="80" id="RJR-bs-S7o"/>
+                                    <constraint firstAttribute="bottom" secondItem="NZ9-i1-LXa" secondAttribute="bottom" id="Rt4-Gn-u1m"/>
+                                    <constraint firstItem="5j7-yq-r8a" firstAttribute="leading" secondItem="Nrh-i8-o4v" secondAttribute="leading" constant="8" id="T2X-G4-Sew"/>
+                                    <constraint firstItem="VWW-xS-XaQ" firstAttribute="centerX" secondItem="Nrh-i8-o4v" secondAttribute="centerX" id="ZCd-lK-hsZ"/>
+                                    <constraint firstItem="NZ9-i1-LXa" firstAttribute="centerY" secondItem="5Xh-Gx-pZL" secondAttribute="centerY" id="aeu-vx-9HK"/>
+                                    <constraint firstItem="VWW-xS-XaQ" firstAttribute="centerY" secondItem="5Xh-Gx-pZL" secondAttribute="centerY" id="cE7-bX-yqr"/>
+                                    <constraint firstAttribute="height" constant="323" id="dUT-t2-pYg"/>
+                                    <constraint firstItem="7N5-Pw-rOA" firstAttribute="top" secondItem="Nrh-i8-o4v" secondAttribute="top" constant="20" id="eOT-ec-4Q4"/>
+                                    <constraint firstAttribute="trailing" secondItem="NZ9-i1-LXa" secondAttribute="trailing" id="euW-Ck-pxf"/>
+                                    <constraint firstItem="5Xh-Gx-pZL" firstAttribute="leading" secondItem="Nrh-i8-o4v" secondAttribute="leading" id="iwE-7M-SUj"/>
+                                    <constraint firstItem="NZ9-i1-LXa" firstAttribute="centerY" secondItem="5Xh-Gx-pZL" secondAttribute="centerY" id="kvO-cG-irC"/>
+                                    <constraint firstItem="QG1-mX-uje" firstAttribute="leading" secondItem="vf3-Wf-01l" secondAttribute="trailing" id="o3G-PH-uXd"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Xh-Gx-pZL" secondAttribute="bottom" id="oD6-1G-BQL"/>
+                                    <constraint firstItem="C00-QI-MPt" firstAttribute="top" secondItem="vf3-Wf-01l" secondAttribute="bottom" constant="50" id="rTd-VV-GSK"/>
+                                    <constraint firstAttribute="trailing" secondItem="QG1-mX-uje" secondAttribute="trailing" id="vKb-xW-myY"/>
+                                    <constraint firstItem="5j7-yq-r8a" firstAttribute="centerY" secondItem="vf3-Wf-01l" secondAttribute="centerY" id="z0j-BC-Dff"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9NT-1C-1wr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7qY-4x-BnV"/>
-                            <constraint firstItem="9NT-1C-1wr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="L4A-YS-Jpi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9NT-1C-1wr" secondAttribute="trailing" id="NwQ-Hh-pj5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9NT-1C-1wr" secondAttribute="bottom" id="dwm-YO-SWp"/>
-                            <constraint firstItem="Nrh-i8-o4v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hOP-vB-0g4"/>
-                            <constraint firstItem="Nrh-i8-o4v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mgP-0x-2sM"/>
+                            <constraint firstAttribute="top" secondItem="9NT-1C-1wr" secondAttribute="top" id="5ys-Bn-tDd"/>
+                            <constraint firstAttribute="bottom" secondItem="9NT-1C-1wr" secondAttribute="bottom" id="k0X-vh-Es0"/>
+                            <constraint firstAttribute="trailing" secondItem="9NT-1C-1wr" secondAttribute="trailing" id="mF9-sX-DQz"/>
+                            <constraint firstAttribute="leading" secondItem="9NT-1C-1wr" secondAttribute="leading" id="nmz-2B-BMc"/>
+                            <constraint firstItem="Nrh-i8-o4v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sY9-gk-97w"/>
+                            <constraint firstItem="Nrh-i8-o4v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tuZ-im-Ga7"/>
+                            <constraint firstItem="Nrh-i8-o4v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wPO-2Q-bt9"/>
+                            <constraint firstItem="Nrh-i8-o4v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xdB-ic-ffy"/>
                         </constraints>
                     </view>
                     <connections>
@@ -172,14 +202,14 @@
             <objects>
                 <viewController id="xjE-FU-zDM" customClass="AboutViewController" customModule="BullsEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ecr-G5-aDl">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="U0S-Xb-dKT">
-                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="U0S-Xb-dKT">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                             </imageView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L4O-Oq-cWK">
-                                <rect key="frame" x="20" y="20" width="696" height="329"/>
+                                <rect key="frame" x="64" y="20" width="768" height="308"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -187,7 +217,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgO-EW-xv0">
-                                <rect key="frame" x="318" y="357" width="100" height="37"/>
+                                <rect key="frame" x="398" y="336" width="100" height="37"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Close" backgroundImage="Button-Normal">
@@ -206,16 +236,16 @@
                         <viewLayoutGuide key="safeArea" id="dJR-Q5-w2U"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="qgO-EW-xv0" firstAttribute="top" secondItem="L4O-Oq-cWK" secondAttribute="bottom" constant="8" id="Rd3-UB-sXT"/>
-                            <constraint firstItem="dJR-Q5-w2U" firstAttribute="bottom" secondItem="qgO-EW-xv0" secondAttribute="bottom" constant="20" id="WVY-ep-Ad4"/>
-                            <constraint firstItem="L4O-Oq-cWK" firstAttribute="top" secondItem="dJR-Q5-w2U" secondAttribute="top" constant="20" id="bHE-PD-J44"/>
-                            <constraint firstItem="dJR-Q5-w2U" firstAttribute="trailing" secondItem="L4O-Oq-cWK" secondAttribute="trailing" constant="20" id="bHQ-A4-dMe"/>
-                            <constraint firstItem="dJR-Q5-w2U" firstAttribute="trailing" secondItem="U0S-Xb-dKT" secondAttribute="trailing" id="h3j-YW-vHs"/>
-                            <constraint firstItem="qgO-EW-xv0" firstAttribute="centerX" secondItem="ecr-G5-aDl" secondAttribute="centerX" id="h9F-v3-u6L"/>
-                            <constraint firstItem="L4O-Oq-cWK" firstAttribute="leading" secondItem="dJR-Q5-w2U" secondAttribute="leading" constant="20" id="nMU-iC-kSP"/>
-                            <constraint firstItem="U0S-Xb-dKT" firstAttribute="leading" secondItem="dJR-Q5-w2U" secondAttribute="leading" id="rC0-j8-Qk6"/>
-                            <constraint firstItem="U0S-Xb-dKT" firstAttribute="top" secondItem="dJR-Q5-w2U" secondAttribute="top" id="uHZ-NX-GK0"/>
-                            <constraint firstItem="dJR-Q5-w2U" firstAttribute="bottom" secondItem="U0S-Xb-dKT" secondAttribute="bottom" id="xTk-be-2QE"/>
+                            <constraint firstItem="dJR-Q5-w2U" firstAttribute="trailing" secondItem="L4O-Oq-cWK" secondAttribute="trailing" constant="20" id="78E-My-asa"/>
+                            <constraint firstItem="U0S-Xb-dKT" firstAttribute="trailing" secondItem="ecr-G5-aDl" secondAttribute="trailing" id="G4L-cK-aMp"/>
+                            <constraint firstItem="qgO-EW-xv0" firstAttribute="top" secondItem="L4O-Oq-cWK" secondAttribute="bottom" constant="8" id="YTA-Y8-MiX"/>
+                            <constraint firstItem="L4O-Oq-cWK" firstAttribute="top" secondItem="dJR-Q5-w2U" secondAttribute="top" constant="20" id="a07-4U-5PK"/>
+                            <constraint firstItem="U0S-Xb-dKT" firstAttribute="bottom" secondItem="ecr-G5-aDl" secondAttribute="bottom" id="aKA-hC-abn"/>
+                            <constraint firstItem="U0S-Xb-dKT" firstAttribute="top" secondItem="ecr-G5-aDl" secondAttribute="top" id="axK-u4-deW"/>
+                            <constraint firstItem="qgO-EW-xv0" firstAttribute="centerX" secondItem="ecr-G5-aDl" secondAttribute="centerX" id="bFy-xL-Eda"/>
+                            <constraint firstItem="dJR-Q5-w2U" firstAttribute="bottom" secondItem="qgO-EW-xv0" secondAttribute="bottom" constant="20" id="bIn-EK-dPO"/>
+                            <constraint firstItem="L4O-Oq-cWK" firstAttribute="leading" secondItem="dJR-Q5-w2U" secondAttribute="leading" constant="20" id="ujd-tS-LRu"/>
+                            <constraint firstItem="U0S-Xb-dKT" firstAttribute="leading" secondItem="ecr-G5-aDl" secondAttribute="leading" id="z7G-2K-KgT"/>
                         </constraints>
                     </view>
                     <connections>
